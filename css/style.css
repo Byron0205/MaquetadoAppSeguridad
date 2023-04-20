@@ -19,3 +19,66 @@ html{
 body{
     font-size: 16px;
 }
+
+
+/* Globales */
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    /* Para que no tengan la linea que se les hace aveces 
+    en  la parte inferior*/
+    display: block;
+}
+
+/* Utilidades */
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.btn {
+    background-color: var(--blanco);
+    color: var(--morado);
+    padding: .7rem 4rem;
+}
+
+
+/* Login */
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--morado);
+    color: var(--blanco);
+    border-radius: .5rem;
+}
+@media (min-width: 768px) {
+    .login {
+        width: 40rem;
+    }
+}
+.formulario {
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.username input,
+.password input {
+    display: block;
+}
+
+.btn__login {
+    margin-bottom: 2rem;
+}
+
+
+
