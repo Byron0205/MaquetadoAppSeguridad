@@ -1,0 +1,21 @@
+:root{
+    --morado-claro: #9904D9;
+    --morado-oscuro: #460273;
+    --azul: #0367A6;
+    --celeste: #05F2F2;
+    --rojo: #590219;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /* box model */
+}
+
+/* box model*/
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+}
