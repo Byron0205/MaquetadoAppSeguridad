@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="img/menu_white_24dp.svg" alt="icon menu">
+            <a class="title-nav" href="Principal.html"><h1 class="no-margin">S.I.C.</h1></a>
+        </nav>
+        
+    </header>
+    <div class="container">
+        <form>
+            <legend class="form-title">Reporte de problemas</legend>
+            <div class="campo">
+                <label class="text-label">Camara</label>
+                <select class="form-control">
+                    <option value="0"></option>
+                    <option value="1">camara 1</option>
+                    <option value="2">camara 2</option>
+                    <option value="3">camara 3</option>
+                    <option value="4">camara 4</option>
+                    <option value="5">camara 5</option>
+                    <option value="6">camara 6</option>
+                </select>
+            </div>
+            
+            <div class="campo">
+            <label class="text-label">Tipo alerta</label>
+                <label>
+                  <input class="form-control" type="radio" name="option" value="option1">
+                  Ruidos Extraños
+                </label>
+                <br>
+                <label>
+                    <input class="form-control" type="radio" name="option" value="option2">
+                    Problema con los vecinos
+                </label>
+                <br>
+                <label>
+                    <input class="form-control" type="radio" name="option" value="option3">
+                    Otros
+                </label>
+            </div>
+            <div class="campo">
+                <label class="text-label">Descripcion (Opcional)</label>
+                <textarea class="form-control" cols="30" rows="3"></textarea>
+            </div>
+            <div class="btn-group">
+                <a class="btn" href="Principal.html">Confirmar</a>
+            </div>
+                
+        </form>
+    </div>
+</body>
+</html>
