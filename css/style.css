@@ -4,6 +4,7 @@
     --azul: #0367A6;
     --celeste: #05F2F2;
     --rojo: #590219;
+    --blanco: #FFFFFF;
 }
 
 html{
@@ -57,10 +58,6 @@ a{
     text-align: center;
 }
 
-.img-mapa{
-    max-width: 80%;
-
-}
 
 .btn{
     margin: 2rem 0.5rem;
@@ -238,4 +235,143 @@ form .btn{
     padding: 1rem;
     border-radius: 0;
     
+}
+/* Globales */
+
+
+img {
+    max-width: 100%;
+    /* Para que no tengan la linea que se les hace aveces 
+    en  la parte inferior*/
+    display: block;
+}
+
+/* Utilidades */
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.btn {    
+    padding: .7rem 4rem;
+    border-radius: .5rem;
+}
+.no-margin {
+    margin: 0;
+}
+.text-center {
+    text-align: center;
+}
+
+
+/* Login */
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--morado-oscuro);
+    color: var(--blanco);
+    border-radius: .5rem;
+}
+@media (min-width: 768px) {
+    .login {
+        width: 40rem;
+    }
+}
+
+.formulario {
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.username input,
+.password input {
+    display: block;
+}
+
+.btn__login {
+    background-color: var(--blanco);
+    color: var(--morado-oscuro);
+    margin-bottom: 2rem;
+}
+/* Fin login */
+
+.header {
+    background-color: var(--morado-oscuro);
+    color: var(--blanco);
+}
+
+.logo {
+    color: var(--blanco);
+}
+
+
+/* Vista de la camara */
+@media (min-width: 768px) {
+    video {
+        max-width: 70rem;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.iconos {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 768px) {
+    .iconos {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 1rem 0;
+        justify-content: space-around;
+    }   
+}
+
+.iconos svg {
+    width: 3rem;
+    height: auto;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}   
+
+.btn__camaras {
+    background-color: var(--morado-claro);
+    color: var(--blanco);
+}
+
+/* Alerta */
+
+.alerta {
+    -webkit-box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    -moz-box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.alerta img {
+    width: 6rem;
+    height: auto;
+}
+
+.alerta a {
+    margin: 1rem 0;
 }
