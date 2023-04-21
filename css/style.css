@@ -68,6 +68,7 @@ img {
         width: 40rem;
     }
 }
+
 .formulario {
     width: 80%;
     margin: 0% auto;
@@ -136,4 +137,29 @@ img {
 .btn__camaras {
     background-color: var(--morado-claro);
     color: var(--blanco);
+}
+
+/* Alerta */
+
+.alerta {
+    -webkit-box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    -moz-box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    box-shadow: 3px 2px 19px 0px rgba(89,2,25,0.75);
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.alerta img {
+    width: 6rem;
+    height: auto;
+}
+
+.alerta a {
+    margin: 1rem 0;
 }
